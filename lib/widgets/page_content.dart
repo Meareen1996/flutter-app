@@ -14,7 +14,7 @@ class PageContent extends StatelessWidget {
         ),
         body: ListView(
           children: [
-            FlatButton(
+            ElevatedButton(
                 onPressed: () => {
                       Navigator.pushNamed(
                         context,
@@ -22,7 +22,7 @@ class PageContent extends StatelessWidget {
                       )
                     },
                 child: Text('${Routes.home}')),
-            FlatButton(
+            ElevatedButton(
                 onPressed: () => {
                       Navigator.pushNamed(
                         context,
@@ -30,7 +30,7 @@ class PageContent extends StatelessWidget {
                       )
                     },
                 child: Text('${Routes.login}')),
-            FlatButton(
+            ElevatedButton(
                 onPressed: () => {
                       Navigator.pushNamed(
                         context,
@@ -38,7 +38,7 @@ class PageContent extends StatelessWidget {
                       )
                     },
                 child: Text('${Routes.notfound}')),
-            FlatButton(
+            ElevatedButton(
                 onPressed: () => {
                       Navigator.pushNamed(
                         context,
